@@ -1,0 +1,34 @@
+/* CSS Document */
+
+body {font-family: Lucida Grande, Arial, Helvetica, Verdana, Sans-Serif; margin:0; }
+
+td, p, dd, dl, dt, ul, ul ul, ol, .left, option {font-family: Lucida Grande, Arial, Helvetica, Verdana, Sans-Serif; font-size: 13px; text-align: left; line-height:18px; color:#000;}
+
+
+/* Visited and unvisited */
+a {color:#009cdb;}
+a:hover {color:#C00;}
+a:visited {color:#9933B2;}
+
+a.footer {color:#FFF; text-decoration: none;}
+a.footer:hover {color:#FFF; text-decoration: underline;}
+a.footer:visited {color:#FFF;}
+
+
+h1 {font-size: 28px !important; color: #022d95; padding-top: 15px; font-weight: bold; line-height:24px; }
+h2 {font-size: 16px; color: #4178b8; font-weight: bold; line-height:24px; }
+h3 {font-size:14px; color: #28477f; font-weight: bold;}
+h4 {font-size: 13px; font-weight: bold;}
+h5 {font-size: 13px; color: #666; font-weight: bold;}
+
+.subheadline {font-family:Georgia, Times New Roman, Times, serif Times, serif; color:#888; font-style:italic; font-size: 16px; line-height:20px; }
+
+
+/* Email, Favorites, and Print has a hover effect and no visited link color */
+.EmailFavoritesPrint {font-family: Lucida Grande, Arial, Helvetica, Verdana, Sans-Serif; color:#888; font-size:10pt;}
+a.EmailFavoritesPrint {color:#888; text-decoration: none;}
+a.EmailFavoritesPrint:hover {color:#009cdb; text-decoration: underline;}
+a.EmailFavoritesPrint:visited {color:#888;}
+
+
+

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\/(.*)\/(.*)/$ /~internal/cic/page.php?id=$1&type=$2&num=$3 [L]
+RewriteRule ^(.*)\/(.*)/$ /~internal/cic/page.php?id=$1&type=$2 [L]
+RewriteRule ^(.*)/$ /~internal/cic/page.php?id=$1 [NC]
